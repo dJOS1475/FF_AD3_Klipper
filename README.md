@@ -41,7 +41,7 @@ Klipper Features in use:
 * Adaptive Purge
 * Adaptive Mesh Levelling w/ BLTouch
 * Auto-Load Filament using Filament Sensor
-* Auto Unload Filament went run-out detected
+* Auto Unload Filament when run-out detected
 * Unload macro for when you just want to change Filament types/colours etc
 * Auto-Extraction Fan at the end of Print (via End G-Code)
 * Working LED lighting
