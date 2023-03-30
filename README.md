@@ -45,3 +45,5 @@ Klipper Features in use:
 * Unload macro for when you just want to change Filament types/colours etc
 * Auto-Extraction Fan at the end of Print (via End G-Code)
 * Working LED lighting
+
+NOTE: The Stepper Motors on this machine are kinda junk, and above 1k acceleration, are prone to layer shifts. I recomend replacing them if higher accelerations are desired.
