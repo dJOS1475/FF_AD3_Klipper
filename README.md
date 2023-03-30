@@ -12,7 +12,8 @@ Warning: this Upgrade is a Major effort and is recomended for Advanced 3D Printe
 
 https://www.printables.com/social/171511-djos_1475/models
 
-<h1 >Required Components:</h1>
+<a>
+<h1 >Required Components:</h1> </a>
 * BigTree Tech SKR Mini E3 v3
 * BigTree Tech TFT-35 MZ LCD Screen (with NoTouch E3 Firmware installed)
 * PCB's: AD3 HE and AD3 HE BreakOut Boards.
