@@ -29,7 +29,7 @@ Required Components:
 UPDATES:
 30th March 2023 - Everything now works! 
 
-Sensoless Homing in Action:
+Sensorless Homing in Action:
 https://youtu.be/0Acrmv7VkdY
 
 and Printing ASA:
