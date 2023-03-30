@@ -27,7 +27,9 @@ Required Components:
 
 
 UPDATES:
+31st March 2023 - Printer now calibrated and Printer.cfg has been updated.
 30th March 2023 - Everything now works! 
+
 
 Sensorless Homing in Action:
 https://youtu.be/0Acrmv7VkdY
