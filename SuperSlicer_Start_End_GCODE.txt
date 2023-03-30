@@ -34,8 +34,8 @@ M117 Printing...
 
 
 ; KLIPPER END CONFIG
+M117 Print Finished.
 M400 ; wait for moves to finish
-M117 Cooling down...
 M104 S0 ; turn off extruder
 M140 S0 ; turn off bed
 M107 ; Fan off
@@ -43,16 +43,14 @@ M107 ; Fan off
 G91 ;relative positioning
 G1 E-5 F300 ;retract the filament a bit before lifting the nozzle, to release some of the pressure
 G1 Z+25.0 E-5 ;move Z up a bit and retract filament even more
-G1 X0 ; move X to min endstops, so the head is out of the way
 
 G90 ;Absolute positioning
+G1 X1 ; move X to min endstops, so the head is out of the way
 G1 Y148 ;Present print
 M84 ;steppers off
-G1 X0
-M84 ; disable motors
-M117 Print Finished.
+M117 Cooling down...
 SET_FAN_SPEED FAN=exhaust_fan SPEED=1
-G4 300,000 ; Run exhaust fan for 5 mins
+G4 P300000 ; Run exhaust fan for 5 mins
 SET_FAN_SPEED FAN=exhaust_fan SPEED=0
 
 
