@@ -3,6 +3,7 @@
 ![alt text](https://www.klipper3d.org/img/klipper-logo.png)
 
 3D Printed items will be shared via my Printables account soonish (just in final testing)
+
 https://www.printables.com/social/171511-djos_1475/models
 
 Warning: this Upgrade is a Major effort and is recomended for advanced 3D Printer users with electronics skills only
