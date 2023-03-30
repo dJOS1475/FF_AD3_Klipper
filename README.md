@@ -12,7 +12,7 @@ Warning: this Upgrade is a Major effort and is recomended for Advanced 3D Printe
 
 https://www.printables.com/social/171511-djos_1475/models
 
-Required Components:
+# Required Components:
 * BigTree Tech SKR Mini E3 v3
 * BigTree Tech TFT-35 MZ LCD Screen (with NoTouch E3 Firmware installed)
 * PCB's: AD3 HE and AD3 HE BreakOut Boards.
@@ -25,7 +25,7 @@ Required Components:
 * Printed Parts (Unreleased)
 
 
-UPDATES:
+# UPDATES:
 * 31st March 2023 - Printer now calibrated and Printer.cfg has been updated.
 * 30th March 2023 - Everything now works! 
 
@@ -37,7 +37,7 @@ and Printing ASA:
 https://youtu.be/akCvX6l-e6o
 
 
-Klipper Features in use:
+# Klipper Features in use:
 * Sensorless Homing
 * Adaptive Purge
 * Adaptive Mesh Levelling w/ BLTouch
@@ -47,4 +47,5 @@ Klipper Features in use:
 * Auto-Extraction Fan at the end of Print (via End G-Code)
 * Working LED lighting
 
-NOTE: The Stepper Motors on this machine are kinda junk, and above 1k acceleration, are prone to layer shifts. I recomend replacing them if higher accelerations are desired.
+# NOTE: 
+The Stepper Motors on this machine are kinda junk, and above 1k acceleration, are prone to layer shifts. I recomend replacing them if higher accelerations are desired.
