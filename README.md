@@ -2,7 +2,7 @@
 
 <p align="center">
   <a>
-    <img src="https://raw.githubusercontent.com/VioSynthax/Adventurer-Voxel-Klipper/2.0-preview/images/klippventurer.svg" alt="Klippventurer logo" height="185">
+    <img src="[https://raw.githubusercontent.com/VioSynthax/Adventurer-Voxel-Klipper/2.0-preview/images/klippventurer.svg](https://raw.githubusercontent.com/dJOS1475/FF_AD3_Klipper/main/PCB's/klippventurer.svg)" alt="Klippventurer logo" height="185">
   </a>
 </p>
 
