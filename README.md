@@ -1,6 +1,10 @@
 # FlashForge Adventure 3 - Klipper + BTT SKR Mini E3 Upgrade
 
-![alt text](https://raw.githubusercontent.com/VioSynthax/Adventurer-Voxel-Klipper/2.0-preview/images/klippventurer.svg)
+<p align="center">
+  <a>
+    <img src="https://raw.githubusercontent.com/VioSynthax/Adventurer-Voxel-Klipper/2.0-preview/images/klippventurer.svg" alt="Klippventurer logo" height="185">
+  </a>
+</p>
 
 Warning: this Upgrade is a Major effort and is recomended for advanced 3D Printer users with electronics skills only
 
