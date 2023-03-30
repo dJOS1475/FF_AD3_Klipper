@@ -14,14 +14,14 @@ https://www.printables.com/social/171511-djos_1475/models
 
 
 Required Components:
-* Big Tree Tech SKR Mini E3 v3
-* Big Tree Tech TFT-35 MZ LCD Screen (with NoTouch E3 Firmware installed)
+* BigTree Tech SKR Mini E3 v3
+* BigTree Tech TFT-35 MZ LCD Screen (with NoTouch E3 Firmware installed)
 * PCB's: AD3 HE and AD3 HE BreakOut Boards.
 * E3D Revo 6 Hot End
 * Good Quality Ribbon cable - ~1.5 meters
-* 2X9 Pin IDC Cable Connectors
+* 2x9 Pin IDC Cable Connectors and sockets
 * 2x Molex, Micro-Fit 3.0, 43650, 2 Way, 1 Row, Right Angle PCB Headers
-* Assorted JST-PH PCb Sockets and Cable Connectors
+* Assorted JST-PH PCB Sockets and Cable Connectors
 * 2x PCB Mount Screw Terminal Blocks eg CUI Devices TB004-508-02BE
 * Printed Parts (Unreleased)
 
