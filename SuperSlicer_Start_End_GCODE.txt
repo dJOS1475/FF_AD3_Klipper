@@ -5,8 +5,7 @@ M82 ;set extruder to absolute mode
 
 M117 Homing X/Y ...
 G28 ;home all axis
-G28 X0 Y0 ;move X/Y to min endstops
-G28 X Y ;move extruder back to front left corner
+G1 X0 Y0 ;move X/Y to min endstops
 M107 ;start with the fan off
 
 M117 Bed Heating ...
@@ -20,9 +19,8 @@ M400 ;Wait for delay
 M117 Adaptive Mesh ...
 BED_MESH_CALIBRATE ;Auto Bed Level
 
-G28 X0 Y0 ;move X/Y to min endstops
-G28 X Y ;move extruder back to front left corner
-G1 Z15.0 F[travel_speed] ;move the platform down 15mm
+G1 X0 Y0 ;move X/Y to min endstops
+G1 Z25.0 F[travel_speed] ;move the Z gantry up 25mm
 
 ;Section to heat hot end
 M117 Ext Heating ...
@@ -45,12 +43,12 @@ M107 ; Fan off
 G91 ;relative positioning
 G1 E-5 F300 ;retract the filament a bit before lifting the nozzle, to release some of the pressure
 G1 Z+25.0 E-5 ;move Z up a bit and retract filament even more
-G28 X0 ; move X to min endstops, so the head is out of the way
+G1 X0 ; move X to min endstops, so the head is out of the way
 
 G90 ;Absolute positioning
 G1 Y148 ;Present print
 M84 ;steppers off
-G28 X
+G1 X0
 M84 ; disable motors
 M117 Print Finished.
 SET_FAN_SPEED FAN=exhaust_fan SPEED=1
