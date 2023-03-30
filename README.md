@@ -6,6 +6,8 @@ WARNING: This is very much a work-in-progress
 3D Printed items will be shared via my Printables account shortly
 https://www.printables.com/social/171511-djos_1475/models
 
+UPDATES:
+30th March 2023 - most things now working, however, sensorless homing is still broken.
 
 Printer in Action:
 
