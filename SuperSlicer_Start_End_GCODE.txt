@@ -1,0 +1,68 @@
+;KLIPPER START CONFIG
+G21 ;metric values
+G90 ;absolute positioning
+M82 ;set extruder to absolute mode
+
+M117 Homing X/Y ...
+G28 ;home all axis
+G28 X0 Y0 ;move X/Y to min endstops
+G28 X Y ;move extruder back to front left corner
+M107 ;start with the fan off
+
+M117 Bed Heating ...
+;Section to heat bed
+M104 S150 ;Warm Up HE to 150c to speed up process
+M190 S[first_layer_bed_temperature];wait for bed temperature
+M117 Bed Settling ...
+G4 P60000 ;Wait 1 minute to let bed temps settle
+M400 ;Wait for delay
+
+M117 Adaptive Mesh ...
+BED_MESH_CALIBRATE ;Auto Bed Level
+
+G28 X0 Y0 ;move X/Y to min endstops
+G28 X Y ;move extruder back to front left corner
+G1 Z15.0 F[travel_speed] ;move the platform down 15mm
+
+;Section to heat hot end
+M117 Ext Heating ...
+M109 T0 S{first_layer_temperature[0]} ;wait for hotend temperature
+
+M117 Adaptive Purge ...
+ADAPTIVE_PURGE
+
+M117 Printing...
+
+
+
+; KLIPPER END CONFIG
+M400 ; wait for moves to finish
+M117 Cooling down...
+M104 S0 ; turn off extruder
+M140 S0 ; turn off bed
+M107 ; Fan off
+
+G91 ;relative positioning
+G1 E-5 F300 ;retract the filament a bit before lifting the nozzle, to release some of the pressure
+G1 Z+25.0 E-5 ;move Z up a bit and retract filament even more
+G28 X0 ; move X to min endstops, so the head is out of the way
+
+G90 ;Absolute positioning
+G1 Y148 ;Present print
+M84 ;steppers off
+G28 X
+M84 ; disable motors
+M117 Print Finished.
+SET_FAN_SPEED FAN=exhaust_fan SPEED=1
+G4 300,000 ; Run exhaust fan for 5 mins
+SET_FAN_SPEED FAN=exhaust_fan SPEED=0
+
+
+
+;BEFORE_LAYER_CHANGE
+;[layer_z]
+
+
+;AFTER_LAYER_CHANGE
+;[layer_z]
+M117 {layer_z}mm of {bounding_box[5]}mm
