@@ -1,8 +1,6 @@
-# FF_AD3_Klipper
+# FlashForge Adventure 3 Klipper + BTT SKR Mini E3 Upgrade
 
 ![alt text](https://www.klipper3d.org/img/klipper-logo.png)
-
-FlashForge Adventurer 3 - Klipper / BTT SKR Mini E3 Upgrade
 
 3D Printed items will be shared via my Printables account soonish (just in final testing)
 https://www.printables.com/social/171511-djos_1475/models
