@@ -50,4 +50,5 @@ https://youtu.be/akCvX6l-e6o
 * Working LED lighting
 
 # NOTE: 
-The Stepper Motors on this machine are kinda junk, and above 1k acceleration, are prone to layer shifts. I recomend replacing them if higher accelerations are desired.
+The Stepper Motors on this machine are kinda junk, I recomend replacing them if high accelerations are desired.
+D
