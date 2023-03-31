@@ -8,7 +8,7 @@
 
 Warning: this Upgrade is a Major effort and is recomended for Advanced 3D Printer Users with some electronics skills only. If you would like to keep your OEM mainboard and wiring, please see the Klippventure project by VioSynthax.
 
-#3D Printed items are available via Printables:
+# 3D Printed items are available via Printables:
 
 https://www.printables.com/model/437968-flashforge-adventurer-3-klipper-revo-6-bltouch-btt
 
