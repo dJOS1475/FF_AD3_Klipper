@@ -32,6 +32,9 @@ https://www.printables.com/model/437968-flashforge-adventurer-3-klipper-revo-6-b
 * 31st March 2023 - Printer now calibrated and Printer.cfg has been updated.
 * 30th March 2023 - Everything now works! 
 
+# Videos
+FlashForge Adventurer 3 gets a new Brain, Hot-End and Klipper:
+https://youtu.be/USZoIhBnA24
 
 Sensorless Homing in Action:
 https://youtu.be/0Acrmv7VkdY
