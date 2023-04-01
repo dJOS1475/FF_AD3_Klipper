@@ -55,5 +55,5 @@ https://youtu.be/akCvX6l-e6o
 * Working LED lighting
 
 # NOTE: 
-The Stepper Motors on this machine are kinda junk, I recommend replacing them if high accelerations are desired.
+The Stepper Motors on this machine are kinda junk, I recommend replacing them if high accelerations and speeds are desired.
 
