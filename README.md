@@ -29,6 +29,7 @@ https://www.printables.com/model/437968-flashforge-adventurer-3-klipper-revo-6-b
 
 
 # UPDATES:
+* 1st April 2023 - Tweaks to max speed and driver current - the steppers don't seem to like travel speeds over 150mm/s without overheating and causing layer shifts
 * 31st March 2023 - Printer now calibrated and Printer.cfg has been updated.
 * 30th March 2023 - Everything now works! 
 
