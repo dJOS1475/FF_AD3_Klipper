@@ -24,6 +24,7 @@ https://www.printables.com/model/437968-flashforge-adventurer-3-klipper-revo-6-b
 * 2x Molex, Micro-Fit 3.0, 43650, 2 Way, 1 Row, Right Angle PCB Headers
 * Assorted JST-PH PCB Sockets and Cable Connectors
 * 2x PCB Mount Screw Terminal Blocks eg CUI Devices TB004-508-02BE
+* 24v to 5v voltage converter eg "1PZ VAC-H15"
 * Printed Parts
 
 
