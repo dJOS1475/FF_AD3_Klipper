@@ -56,5 +56,5 @@ https://youtu.be/akCvX6l-e6o
 * Working LED lighting
 
 # NOTE: 
-The factory belt tension on this printer is too loose to exceed 1k acceleration and 100mm/s print speds. To rectify this you need to retension the X and Y axis belts properly (tight is good, but dont over do it). The Y axis is a PITA as it can only be fixed when the printer is fully disassembled. The Y belt is a continuous loop with no tension adjuster. So you'll need to cut out roughly 5mm from the belt and re-install it as snug as you can get it. I then used some "Selly's Power Grip" to ensure the belts dont jump out of the jaws holding them.
+The factory belt tension on this printer is too loose to exceed 1k acceleration and 100mm/s print speeds. To rectify this you need to retension the X and Y axis belts properly (tight is good, but dont over do it). The Y axis is a PITA as it can only be fixed when the printer is fully disassembled. The Y belt is a continuous loop with no tension adjuster. So you'll need to cut out roughly 5mm from the belt and re-install it as snug as you can get it. I then used some "Selly's Power Grip" to ensure the belts dont jump out of the jaws holding them.
 
