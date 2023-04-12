@@ -1,5 +1,4 @@
 ;KLIPPER START CONFIG
-SKEW_PROFILE LOAD=my_skew_profile
 G21 ;metric values
 G90 ;absolute positioning
 M82 ;set extruder to absolute mode
@@ -29,6 +28,7 @@ M109 T0 S{first_layer_temperature[0]} ;wait for hotend temperature
 
 M117 Adaptive Purge ...
 ADAPTIVE_PURGE
+SKEW_PROFILE LOAD=my_skew_profile
 M117 Printing...
 
 
@@ -44,6 +44,7 @@ G91 ;relative positioning
 G1 E-5 F300 ;retract the filament a bit before lifting the nozzle, to release some of the pressure
 G1 Z+25.0 E-5 ;move Z up a bit and retract filament even more
 
+SET_SKEW CLEAR=1
 G90 ;Absolute positioning
 G1 X1 ; move X to min endstops, so the head is out of the way
 G1 Y148 ;Present print
@@ -52,7 +53,6 @@ M117 Cooling down...
 SET_FAN_SPEED FAN=exhaust_fan SPEED=1
 G4 P300000 ; Run exhaust fan for 5 mins
 SET_FAN_SPEED FAN=exhaust_fan SPEED=0
-SET_SKEW CLEAR=1
 M117 Print Finished...
 
 
