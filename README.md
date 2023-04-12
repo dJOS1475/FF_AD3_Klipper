@@ -29,7 +29,8 @@ https://www.printables.com/model/437968-flashforge-adventurer-3-klipper-revo-6-b
 
 
 # UPDATES:
-* 2nd April - reduced max speed to 100mm/s - any higher results in layer shifts due to the temps getting too high for the stock stepper motors (at least while printing high tempmaterials like ASA)
+* 12th April 2023 - fixed filament macros - please see the Filament_Sensor.cfg file for prerequisites  
+* 2nd April 2023 - reduced max speed to 100mm/s - any higher results in layer shifts due to the temps getting too high for the stock stepper motors (at least while printing high tempmaterials like ASA)
 * 1st April 2023 - Tweaks to max speed and driver current - the steppers don't seem to like travel speeds over 150mm/s without overheating and causing layer shifts
 * 31st March 2023 - Printer now calibrated and Printer.cfg has been updated.
 * 30th March 2023 - Everything now works! 
