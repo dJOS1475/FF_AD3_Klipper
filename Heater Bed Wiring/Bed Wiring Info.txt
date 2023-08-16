@@ -1,4 +1,6 @@
-Basically you dont want to use the inner 2 traces as that is the old Thermistor. I couldnt work out a way to make it reliable, so I replaced it with a normal glass bead thermistor and removed the SMD components from it.
+Basically you dont want to use the inner 2 traces as that is the old Thermistor. 
+I couldnt work out a way to make it reliable, so I replaced it with a normal glass bead thermistor and removed the SMD components from it.
 
 
-The rest of the pads are split evenly on either side as the heater power. it's not important which way you wire it as it isnt polarised.
+The rest of the pads are split evenly on either side as the heater power. 
+It's not important which way you wire it as it isnt polarised.
